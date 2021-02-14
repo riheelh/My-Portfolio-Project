@@ -1,13 +1,14 @@
 :root {
     --clr01: #166bb1;
     --clr02: #b2e4fc;
+    --clr03: #081c2c;
 }
 
 header {
     background-color: var(--clr01);
     width: 100%;
-    height:80px;
-    padding: 10px 10px;
+    height: 10vh;
+    padding: 3vh 3vw;
     color: var(--clr02);
     display: flex;
     flex-direction: row;
@@ -18,8 +19,8 @@ header {
 }
 
 header h1 {
-    margin-left: 30px;
-    font-size: 2.6vw;
+    margin-left: 3vw;
+    font-size: 250%;
     display: flex;
 }
 
@@ -29,13 +30,13 @@ header h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .menu a {
-    width: 160px;
+    width: 20vw;
     font-size: 1.1vw;
-    margin: 10px 0;
+    margin: auto 0;
     flex: 1 1 80px;
     color: var(--clr02);
     text-align: center;
@@ -73,26 +74,27 @@ header h1 {
     justify-content: center;
     margin-left: auto;
     margin-right:auto;
+
 }
 
 .section {
-    padding: 20px 30px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     color: var(--clr02);
     line-height: 1.3em;
-    min-height: 0px;
-    max-height: 600px;
+    min-height: 0;
+    max-height: 800px;
 }
 
 .section h3 {
-    margin-bottom: 25px;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     width: 100%;
     text-align: center;
     font-family:'Lucida Grande', 'Lucida Sans Unicode';
+    flex: 1 1 20%;
 }
 
 #about {
@@ -131,52 +133,84 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 150vw;
+    height: 150vh;
+    color: var(--clr03);
 }
 
 .project {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .project-item {
-    height: 5vw;
-    width: 27vw;
+    height: 5vh;
+    /* width: 27vw; */
     border: 3px solid var(--clr02);
-    margin: 10px 10px;
+    margin: 2vh 2vw;
     align-items: flex-start;
     display: flex;
-    justify-self: center;
-    flex: 1 1 auto;
+    justify-self: flex-start;
+    flex: 1 0 auto;
+    text-decoration: none;
+    text-align: end;
 }
 
-.project-item h4 {
+.project-item div h3 {
+    color:white;
     align-self: center;
+    margin-top: 20%;
+
 }
 
-#main-project {
+.main-project {
+    background-image: linear-gradient(#00000090, #00000090), url("../images/main_project.JPG");
     width: 55vw;
-    height: 14vw;
+    height: 8vw;
+}
+
+.project-01 {
+    background-image: linear-gradient(#00000090, #00000090), url("../images/main_project.JPG");
+    width: 20vw;
+    height: 8vw;
+}
+
+.project-02 {
+    background-image: linear-gradient(#00000090, #00000090), url("../images/main_project.JPG");
+    width: 20vw;
+    height: 8vw;
+}   
+
+.project-03 {
+    background-image: linear-gradient(#00000090, #00000090), url("../images/main_project.JPG");
+    width: 20vw;
+    height: 8vw;
+}
+
+.project-04 {
+    background-image: linear-gradient(#00000090, #00000090), url("../images/main_project.JPG");
+    width: 20vw;
+    height: 8vw;
 }
 
 #contact {
     background-color: #1f2e35;
+    align-content: center;
 }
 
 .contact-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: auto;
+    height: 100px;
     flex-wrap: wrap;
 }
 
 .contact-item {
-    margin: 1vw 8vw;
+    margin: 2vw 8vw;
     text-decoration: underline;
-
+    height: 200px;
 } 
 
 .contact-container ul {
@@ -187,7 +221,7 @@ header h1 {
 }
 
 .contact-container ul li {
-    font-size: 15px;
+    font-size: 12px;
     margin: 10px 10px;
     align-self: center;
     margin: 1vw 5vw;
@@ -220,3 +254,4 @@ footer h4  {
     text-align: center;
     padding: 20px 20px;
 }
+
