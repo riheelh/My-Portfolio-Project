@@ -1,80 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Riheel Hamoande - Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>New Portifolio</title>
 </head>
+
 <body>
-    <header>
-        <h1>Riheel</h1>
-        <nav class="menu">
-              <a href="#about">About Me</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact Me</a>
-        </nav>
-    </header>
-    <section class="hero">
-            <h2 class=>Design Develop Deploy</h2>
-    </section>    
-    <main class="main-page">
-          <section class="section" id="about">
-              <h3>About Me</h3>
-              <div class="about-split">
-                  <div class="about-image">
-                      <img src="./assets/images/profile_pic.jpg" alt="">
-                  </div>
-                  <div class=about-text>
-                      <p> 
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolorum, aliquid molestias recusandae accusantium provident nobis modi consectetur quas consequuntur, architecto ut tempore eveniet accusamus autem vel sint optio error.
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, debitis tempora porro quam provident sed quos, alias veritatis voluptas quae ducimus tempore dicta sequi sunt reiciendis officiis vel nobis aliquam?
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit atque ad magni minima quis non et voluptates porro illo blanditiis amet, eveniet maiores. Corporis similique aspernatur eveniet voluptates dolorem.
-                        </p>
-                  </div>
-               </div>  
-           </section>
-         <section class="section" id="projects">
-            <h3>Projects</h3>
-            <div class="project">  
-              <a href="#" class="project-item main-project">
-                <div>
-                  <h3>Main Project</h3>
-                </div>
-              </a>
-              <a href="#" class="project-item project-01 ">
-                <div>
-                  <h3>project-01</h3>
-                </div>
-              </a>
-              <a href="#" class="project-item project-02">
-                <div>
-                  <h3>project-02</h3>
-                </div>
-              </a>
-              <a href="#" class="project-item project-03">
-                <div>
-                  <h3>project-03</h3>
-                </div>
-              </a>
-              <a href="#" class="project-item project-04">
-                <div>
-                  <h3>project-04</h3>
-                </div>
-              </a>
-         </section>
-         <section class="section" id="contact">
-            <h3>Contact Me</h3>
-            <div class="contact-container">
-              <ul>
-                  <li><img src="./assets/images/mail_icon.png" alt="Mail"/>  info@riheel.com</li>
-                  <li><img src="./assets/images/phone_icon.png" alt="Phone"/> 123-123-1234 </li>
-                  <li><img src="./assets/images/GitHub.png" alt="Github"/>  github.com/riheelh </li>
-              </ul>
-            </div>
-         </section>
-    </main>
-    <footer>
-        <h4>Copyright © 2021 Design by Riheel</h4>
-    </footer>
+  <header>
+    <nav>
+      <div class="nav-wrapper blue-grey darken-2 z-depth-3">
+        <a href="#" class="brand-logo">R I H E E L</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down ">
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+
+        </ul>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="hero-banner center">
+    <span class="white-text center">Developer</span>
+  </div>
+
+  <div class="container">
+    <!-- card01 -->
+    <div class="row">
+      <div class="col l12 m12 center">
+        <div class="card overlap-card orange lighten-2 z-depth-1 horizontal">
+          <div class="card-image aboutMe-image">
+            <img src="./assets/images/profile-pic.JPG" alt="">
+            <div class="shape "></div>
+          </div>
+          <div class="card-content aboutMe-text">
+            <span class="card-title">About Me</span>
+            <p>SRE with extensive experience in operations with certified qualifications in server, network and cloud
+              administration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card02 -->
+    <div class="row">
+      <div class="col l12 m12 center">
+        <div class="card overlap-card blue-grey lighten-2 white-text z-depth-1 ">
+          <div class="card-content skill-text">
+            <span class="card-title">Skills</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card03 -->
+    <div class="row">
+      <div class="col l12 m12 center">
+        <div class="card overlap-card orange lighten-2 z-depth-1 ">
+          <div class="card-content skill-text">
+            <span class="card-title">Project</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+ 
+
+
+  <div class="footer-copyright grey darken-4 ">
+    <div class="container center text-lighten-5">
+      <a href="" class="grey-text text-lighten-1 footer"> Designed by Riheel</a>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>
