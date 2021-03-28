@@ -1,6 +1,6 @@
 # My Portfolio
 
-The website is under progress built using responsive design features.
+Personal Portofolio
 
-
+**Live URL :** https://riheelh.github.io/My-Portfolio-Project/
 
