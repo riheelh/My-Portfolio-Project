@@ -8,7 +8,6 @@ body {
     font-family: 'Roboto', 'sans-serif';
     margin: 0;
     /* height: 120vh; */
-    /* overflow: hidden; */
 }
 
 nav .nav-wrapper {
@@ -22,14 +21,12 @@ nav .nav-wrapper {
     background-size: cover;
     background-position: center;
     min-height: 10vh;
-
 }
 
+/* first-card */
 .overlap-card {
      top:-18vh;
-     height: 30vh;
-     /* display: flex; */
-
+     height: 40vh;
 }
 
 .shape {
@@ -37,17 +34,26 @@ nav .nav-wrapper {
     right:0;
     width: 0;
     height: 0;
-    border-bottom: 30vh solid #ffb74d;
+    border-bottom: 40vh solid #ffb74d;
     border-left: 8vh solid transparent;
-    position: absolute
+    position: absolute;
 }
+
 .aboutMe-image {
-    height: 30vh;
-    /* width: 30vw; */
+    height: 40vh;
 }
 
 .aboutMe-text {
-    height: 30vh;
+    height: 40vh;
+    padding:  14px;
+}
+
+.aboutMe-title {
+    margin-bottom: 1vh;
+}
+
+.aboutMe-text button{
+    border-radius: 4px;
 }
 
 .aboutMe-image img {
@@ -55,6 +61,41 @@ nav .nav-wrapper {
     width: 100%;
 } 
 
+
+/* second-card */
+.skill-card {
+    height: 40vh;
+    top:-18vh;
+}
+
+.skill-cards {
+    margin-top: 6vh;
+}
+
+.subCard {
+    height: 22vh;
+    border: hidden;
+    padding:10px;
+    border-radius: 4px;
+}
+
+.subCard-title {
+    font-size: 120% !important;
+    color:#455a64 !important;
+    padding:10px;
+    background-color: #ffb74d;
+    border-radius: 4px;
+}
+
+
+
+/* third-card */
+.projects-card {
+    height: 40vh;
+    top:-18vh;
+}
+
 .footer {
     font-size: 12px;
+    height: 40vh;
 }
