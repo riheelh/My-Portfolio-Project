@@ -139,6 +139,9 @@ nav .nav-wrapper {
     top: -10vh;
 }
 
+.linkedin {
+    margin-right: 10px;
+}
 
 @media screen and (max-width: 980px) {
     .hero-banner {
@@ -197,11 +200,18 @@ nav .nav-wrapper {
     }
 }
 
+@media screen and (max-width: 680px) {
+   
+    .overlap-card {
+        height: 50vh;
+   }
+
+}   
 
 @media screen and (max-width: 600px) {
    
     .overlap-card {
-        height: 56vh;
+        height: 58vh;
    } 
 
     .aboutMe-title {
