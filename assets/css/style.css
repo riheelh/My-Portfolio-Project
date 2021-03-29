@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', 'sans-serif';
     margin: 0;
-    /* height: 120vh; */
+    background-color: #cfd8dc;
 }
 
 nav .nav-wrapper {
@@ -16,16 +16,22 @@ nav .nav-wrapper {
 }
 
 .hero-banner {
-    height: 44vh;
+    height: 38vh;
     background-image: url(../images/hero-bnr.jpg);
     background-size: cover;
     background-position: center;
     min-height: 10vh;
 }
 
+.cont01 {
+    position: relative;
+    top:-14vh;
+    bottom: -14vh;
+}
+
 /* first-card */
 .overlap-card {
-     top:-18vh;
+     max-height: 80vh;
      height: 40vh;
 }
 
@@ -43,6 +49,11 @@ nav .nav-wrapper {
     height: 40vh;
 }
 
+
+.img-responsive {
+    height: 20vh;
+}
+
 .aboutMe-text {
     height: 40vh;
     padding:  14px;
@@ -50,6 +61,8 @@ nav .nav-wrapper {
 
 .aboutMe-title {
     margin-bottom: 1vh;
+    font-weight: 600 !important;
+    color: #455a64;
 }
 
 .aboutMe-text button{
@@ -65,11 +78,11 @@ nav .nav-wrapper {
 /* second-card */
 .skill-card {
     height: 40vh;
-    top:-18vh;
+    /* top:-14vh; */
 }
 
 .skill-cards {
-    margin-top: 6vh;
+    margin-top: 2vh;
 }
 
 .subCard {
@@ -81,21 +94,137 @@ nav .nav-wrapper {
 
 .subCard-title {
     font-size: 120% !important;
-    color:#455a64 !important;
+    color: #004d40  9996  !important;
     padding:10px;
-    background-color: #ffb74d;
     border-radius: 4px;
+    font-weight: 600 !important; 
 }
-
 
 
 /* third-card */
 .projects-card {
     height: 40vh;
-    top:-18vh;
+    /* top:-14vh; */
 }
 
-.footer {
-    font-size: 12px;
-    height: 40vh;
+.projects-title {
+    font-weight: 600 !important;
+    color: #455a64 !important;
+}
+
+.project-cards {
+    margin-top: 2vh;
+}
+
+.subCard2 {
+    border: hidden;
+    border-radius: 4px; 
+}
+
+.subCard2 img {
+    height: 20vh;
+    width: 20vw;
+}
+
+.project-text {
+    padding: 10px !important;
+}
+
+.cont02 {
+    height: 20vh;
+    /* top:-10vh; */
+}
+
+.page-footer {
+    top: -10vh;
+}
+
+
+@media screen and (max-width: 980px) {
+    .hero-banner {
+        height: 26vh;
+    }
+
+    .skill-card {
+        height: 85vh;
+    }
+
+    .projects-card {
+        height: 68vh;   
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .overlap-card {
+        height: 46vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+   } 
+
+   .shape {
+        display: none;  
+    }
+
+    .aboutMe-title {
+        padding:  10px;
+        margin-bottom: 0.5vh;
+    }
+
+    .aboutMe-image {
+        height: 14vh;
+    }
+
+    .aboutMe-image img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+    }
+
+    .aboutMe-text {
+        padding:  14px;
+        font-size: 14px;
+    }
+
+   .skill-card {
+        height: 85vh; 
+    }
+
+    .projects-card {
+        height: 66vh;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+   
+    .overlap-card {
+        height: 56vh;
+   } 
+
+    .aboutMe-title {
+        font-size: 20px !important;
+    }
+
+    .projects-card {
+        height: 40vh;  
+    }
+
+    #project-img01 {
+        display: none;
+    }
+
+    #project-img02 {
+        display: none;
+    }
+
+    #project-img03 {
+        display: none;
+    }
+
+    #project-img04 {
+        display: none;
+    }
 }
