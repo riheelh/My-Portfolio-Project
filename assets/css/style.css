@@ -176,13 +176,22 @@ nav .nav-wrapper {
         margin-bottom: 0.5vh;
     }
 
+    #profilePic {
+        margin-left: auto;
+        margin-right: auto;
+        height: 12vh;
+        border-radius: 50%;
+    }
+
     .aboutMe-image {
-        height: 14vh;
+        height: 13vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .aboutMe-image img{
-        height: 10rem;
-        width: 10rem;
+        /* height: 10rem;
+        width: 10rem; */
         border-radius: 50%;
     }
 
@@ -236,5 +245,28 @@ nav .nav-wrapper {
 
     #project-img04 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   
+    .overlap-card {
+        height: 60vh;
+   } 
+
+    .aboutMe-title {
+        font-size: 18px !important;
+    }
+
+    .projects-card {
+        height: 40vh;  
+    }
+
+    .skills-title {
+        font-size: 18px !important;
+    }
+
+    .projects-title {
+        font-size: 18px !important;
     }
 }
