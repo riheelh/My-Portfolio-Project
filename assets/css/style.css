@@ -271,3 +271,18 @@ nav .nav-wrapper {
         font-size: 18px !important;
     }
 }
+
+@media screen and (max-width: 420px) {
+   
+    .overlap-card {
+        height: 74vh;
+   } 
+
+   .projects-card {
+    height: 50vh;  
+   }
+
+   .contact-info {
+       height: 2vh;
+   }
+}
